@@ -12,13 +12,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  api.use(['ecmascript','underscore']);
+  api.use(['underscore']);
   api.addFiles('loadsettings.js','server');
-});
-
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('productiveme:loadsettings');
-  api.mainModule('loadsettings-tests.js');
 });
