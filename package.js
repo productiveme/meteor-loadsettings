@@ -2,9 +2,9 @@ Package.describe({
   name: 'productiveme:loadsettings',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'This package will look for a settings.json in your private/ assets folder. If an environment variable NODE_ENV is found, it will attempt to deep-extend the settings.json with the contents of settings.<NODE_ENV>.json and apply the settings just before Meteor.startup. This package does not play well with other packages that require settings before Meteor.startup.',
+  summary: 'This package will apply environment aware settings from your private/ assets folder.',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/productiveme/meteor-loadsettings',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
