@@ -1,6 +1,6 @@
 Package.describe({
   name: 'productiveme:loadsettings',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'This package will apply environment aware settings from your private/ assets folder.',
   // URL to the Git repository containing the source code for this package.
